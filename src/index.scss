@@ -1,0 +1,30 @@
+@import "variables";
+
+#root {
+  display: flex;
+  text-align: center;
+  font-family: $fontFamily;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./images/bg__btm-right.svg") right bottom no-repeat,
+    url("./images/bg__left.svg") left top no-repeat,
+    url("./images/bg__top-right.svg") top right no-repeat;
+}
